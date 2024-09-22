@@ -7,7 +7,7 @@ console.log(city)
 
 button.addEventListener("click",()=>{
     let city = cityinput.value;
-    let apikey = "8b68837b82060e2732f2ffbeaec78fb5";
+    let apikey = "your-api";
      let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`; // Use `units=metric` for Celsius
     
     fetch(url)
